@@ -20,8 +20,10 @@ namespace MY_HW0412
             if (System.Environment.OSVersion.Version.Major >= 6) { SetProcessDPIAware(); }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FrmMyAlbum_V1());
-            Application.Run(new FrmTreeView());
+            //Application.Run(new FrmMyAlbum_V2());
+            //Application.Run(new FrmTreeView());
+            //Application.Run(new My_HW07LogOn());
+            Application.Run(new FrmAdoHW ());
         }
     }
 }

@@ -78,8 +78,9 @@ namespace MY_HW0412
                         if (reader.HasRows)
                         {
                             MessageBox.Show("登入成功!!!");
-                            My_HW07Customers customers = new My_HW07Customers();
-                            customers.Show();
+                            FrmAdoHW adoHW = new FrmAdoHW();
+                            adoHW.Show();
+                            
                         }
                         else
                         {

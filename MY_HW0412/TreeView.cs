@@ -83,17 +83,17 @@ namespace MY_HW0412
                             firstNode = firstNode.Nodes[city];
                         }
 
-                        if (firstNode.Nodes[customer] == null)
-                        {
-                            TreeNode trnode = new TreeNode(customer);
-                            trnode.Name = customer;
-                            firstNode.Nodes.Add(trnode);
-                            firstNode = trnode;
-                        }
-                        else
-                        {
-                            firstNode = firstNode.Nodes[customer];
-                        }
+                        //if (firstNode.Nodes[customer] == null)
+                        //{
+                        //    TreeNode trnode = new TreeNode(customer);
+                        //    trnode.Name = customer;
+                        //    firstNode.Nodes.Add(trnode);
+                        //    firstNode = trnode;
+                        //}
+                        //else
+                        //{
+                        //    firstNode = firstNode.Nodes[customer];
+                        //}
                     }
                 }
             }
